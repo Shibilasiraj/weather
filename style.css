@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+   
+}
+
+#main{
+    margin-bottom:5%;
+
+}
+ 
+.search input{
+    border: 0;
+    outline: 0;
+    background: rgb(177, 175, 175);
+   
+    padding: 10px 25px;
+    height: 50px;
+    border-radius: 30px;
+    flex: 1;
+    font-size: 18px;
+} 
+.search button{
+    border: 0;
+    outline: 0;
+    background: rgb(177, 175, 175);
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+.current-weather{
+    color: rgb(243, 245, 247);
+}
+h1{
+    font-family: "Homemade Apple", cursive;
+    color: rgb(249, 249, 249);
+}
+#temperature{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Horizontal, Vertical, Blur, Color */
+    font-size: 40px;
+    font-style: italic;
+
+}
